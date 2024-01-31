@@ -14,7 +14,8 @@ const MainPage = () => {
         <Tile>
           <Grid>
             <Column lg={4}>
-              <DocumentConversion style={{ width: 128, height: 128 }} />
+              {/* <DocumentConversion style={{ width: 128, height: 128 }} /> */}
+              <img src="https://static.wixstatic.com/media/0b1878_cf6a4bcd32b746249eedbb45ec321718~mv2.png/v1/fill/w_122,h_115,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/2023%20Neurocycle-Logo.png" />
             </Column>
             <Column lg={12}>
               <Typography variant="h1">{translate('menu.header')}</Typography>
