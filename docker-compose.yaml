@@ -20,6 +20,7 @@ services:
       - PGRST_JWT_SECRET=${PGRST_JWT_SECRET-reallyreallyreallyreallyverysafe}
       - PGRST_MAX_ROWS=${MAX_ROWS}
       - PGRST_PRE_REQUEST=${PRE_REQUEST}
+      - PGRST_LOG_LEVEL=info
       # - PGRST_SERVER_PROXY_URI=${SERVER_PROXY_URI}
     depends_on:
       - db
