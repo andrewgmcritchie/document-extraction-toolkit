@@ -19,8 +19,11 @@ createProxyMiddleware({
   pathRewrite: {
     [`^${req.baseUrl}`]: '', // remove base path
   },
-  onProxyReq: (proxyReq) => proxyReq.setHeader('Authorization', `Bearer ${authToken}`),
-  logLevel: process.env.PG_LOG_LEVEL || 'info',
+  onProxyReq: (proxyReq) => {
+    console.log(`Proxying to: ${proxyReq.path}`);
+    proxyReq.setHeader('Authorization', `Bearer ${authToken}`);
+  },
+  logLevel: process.env.PG_LOG_LEVEL || 'debug',
 })(req, res, next)
 )
 
