@@ -26,14 +26,14 @@ const MainPage = () => {
       <Column lg={16}>
         <Tile>
           <CodeSnippet type="multi" feedback="Copied to clipboard" wrapText={true} maxCollapsedNumberOfRows={20}>
-            {`Extract information from PDF documents using watsonx`}
+            {`Predict codes for patient responses using watsonx`}
           </CodeSnippet>
         </Tile>
       </Column>
       <Column lg={16}>
         <Tile>
           <CodeSnippet type="multi" feedback="Copied to clipboard" wrapText={true} maxCollapsedNumberOfRows={20}>
-            {`Disclaimer: The extracted insights are generated using artificial intelligence (AI) for each document. Please be aware that there might be instances of repetition within the text. The content produced by AI is not influenced by personal opinions, emotions, or intentions. Reader discretion is advised.`}
+            {`Disclaimer: The predicted insights are generated using artificial intelligence (AI) for each input. The content produced by AI is not influenced by personal opinions, emotions, or intentions. Reviewer discretion is advised.`}
           </CodeSnippet>
         </Tile>
       </Column>
