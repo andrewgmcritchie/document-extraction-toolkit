@@ -11,3 +11,4 @@
 7.jobs [5.documents 4.users] 2023-08-18T22:50:08Z Bob Fang <sbfang@us.ibm.com> # Add jobs table
 8.extracted_relations_live [5.documents 4.users] 2023-08-18T22:51:48Z Bob Fang <sbfang@us.ibm.com> # Add extracted relations table
 10.procrastinate_schema [8.extracted_relations_live] 2023-08-29T22:12:19Z Bob Fang <sbfang@us.ibm.com> # Add Procrastinate schema
+11.surveys 2024-01-22T16:45:00Z Andrew McRitchie <AndrewMcRitchie@ibm.com> # Add survey schema
