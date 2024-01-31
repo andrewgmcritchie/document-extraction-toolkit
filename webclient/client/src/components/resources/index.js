@@ -5,6 +5,7 @@ import Users from './Users'
 import Relations from './Relations'
 import Jobs from './Jobs'
 import Prompts from './Prompts'
+import Surveys from './Surveys'
 
 export {
   Roles,
@@ -14,4 +15,5 @@ export {
   Relations,
   Jobs,
   Prompts,
+  Surveys,
 }
