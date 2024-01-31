@@ -11,7 +11,10 @@ import { ChipsInput } from '../../carbon-ra'
 
 const ListFilter = [
   <NumberInput source='subject' />,
-  <NullableBooleanInput source="awareness" alwaysOn />
+  <NumberInput source='week' />, 
+  <NullableBooleanInput source="autonomy" alwaysOn />,
+  <NullableBooleanInput source="awareness" alwaysOn />,
+  <NullableBooleanInput source="relatedness" alwaysOn />,
 //   <DateInput source="created_at" />,
 //   <DateInput source="updated_at" />,
 ]
