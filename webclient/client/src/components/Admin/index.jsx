@@ -17,6 +17,7 @@ import {
   Relations,
   Jobs,
   Prompts,
+  Surveys
 } from '../resources'
 
 const store = localStorageStore();
@@ -54,6 +55,7 @@ const App = (props) => {
       <Resource name="jobs" recordRepresentation="name" intent="registration" {...Jobs} />
       <Resource name="extracted_relations_live" recordRepresentation="Extracted Relations" intent="registration" {...Relations} />
       <Resource name="extracted_relations_history" recordRepresentation="Extracted Relations (History)" intent="registration" {...Relations} />
+      <Resource name="surveys" recordRepresentation="id" intent="registration" {...Surveys} />
       <CustomRoutes>
         <Route path="/" element={<MainPage />} />
       </CustomRoutes>

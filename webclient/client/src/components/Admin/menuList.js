@@ -15,43 +15,14 @@ import {
 const CarbonMenuList = {
 	Menu: [
 		{
-			title: 'Configurations',
-			titleTranslate: 'menu.sections.configurations',
+			title: 'Surveys',
+			titleTranslate: 'Surveys',
 			icon: WatsonxAi,
 			menuItem: [
 				{
-					title: 'Prompts',
-					titleTranslate: 'menu.prompts',
-					link: '/prompts'
-				},
-			]
-		},
-		{
-			title: 'Documents',
-			titleTranslate: 'menu.sections.documents',
-			icon: Document,
-			menuItem: [
-				{
-					title: 'Files',
-					titleTranslate: 'menu.files',
-					link: '/documents'
-				},
-				{
-					title: 'Extracted Relations',
-					titleTranslate: 'menu.relations',
-					link: '/extracted_relations_live'
-				}
-			]
-		},
-		{
-			title: 'Jobs',
-			titleTranslate: 'menu.sections.jobs',
-			icon: BatchJob,
-			menuItem: [
-				{
-					title: 'Jobs',
-					titleTranslate: 'menu.jobs',
-					link: '/jobs'
+					title: 'Codes',
+					titleTranslate: 'Codes',
+					link: '/surveys'
 				},
 			]
 		},
