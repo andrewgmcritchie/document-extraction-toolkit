@@ -27,7 +27,7 @@ export default {
   breadcrumbs: {
     root: 'Home',
   },
-  copyright: 'Copyright 2023 IBM Corp.',
+  copyright: 'Copyright 2024 IBM Corp.',
   menu: {
     header: 'Switch on Your Brain',
     files: 'Files',
