@@ -29,7 +29,7 @@ export default {
   },
   copyright: 'Copyright 2023 IBM Corp.',
   menu: {
-    header: 'Document Extraction Toolkit',
+    header: 'Switch on Your Brain',
     files: 'Files',
     relations: 'Extracted Relationships',
     jobs: 'Job Status',
@@ -123,6 +123,21 @@ export default {
       },
       headers: {
         document_files: 'Jobs'
+      }
+    },
+    surveys: {
+      name: 'Surveys',
+      fields: {
+        subject: 'Subject',
+        week: 'Week',
+        question: 'Question',
+        answer: 'Participant Answer',
+        autonomy: 'Autonomy:Internal Locus',
+        awareness: 'Awareness:Emotions',
+        relatedness: 'Relatedness:Belonging/Acceptance',
+      },
+      headers: {
+        document_files: 'Codes'
       }
     },
   },
